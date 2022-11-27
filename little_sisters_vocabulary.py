@@ -23,3 +23,4 @@ def adjective_to_verb(sentence, index):
     phrase = sentence.split()
     word = phrase[index].strip(".")
     return f"{word}en"
+
